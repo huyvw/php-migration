@@ -1,5 +1,7 @@
 # Migration with symfony doctrine and postgres
 
+---
+
 ## First steps
 
 ### 1. Create database 
@@ -72,6 +74,7 @@ ocramius/package-versions: ...done generating version class
 19 packages you are using are looking for funding.
 Use the `composer fund` command to find out more!
 ```
+---
 
 ## Usage:
 ### 1. Dump sql
@@ -122,6 +125,7 @@ To run just this migration for testing purposes, you can use migrations:execute 
 To revert the migration you can use migrations:execute --down 20210428072213
 ```
 
+---
 ## Result
 #### Migration Database
 
