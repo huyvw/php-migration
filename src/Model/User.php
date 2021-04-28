@@ -6,7 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity()
- * @ORM\Table(name="place", indexes={@ORM\Index(columns={"business_id"})})
+ * @ORM\Table(name="user", indexes={@ORM\Index(columns={"created_at"})})
  */
 class User
 {
@@ -23,13 +23,13 @@ class User
      * @var int
      *
      * @ORM\Column(name="created_at", type="bigint")
-    */
+     */
     private $createdAt;
 
     /**
      * @var int
      *
      * @ORM\Column(name="updated_at", type="bigint")
-    */
+     */
     private $updatedAt;
 }

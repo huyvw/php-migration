@@ -1,13 +1,14 @@
 # Migration with symfony doctrine and postgres
 
-##First steps
-###1. Create database 
+## First steps
+
+### 1. Create database 
 ```
 name: migration
 username: migration
 password: migration
 ```
-###2. Install composer
+### 2. Install composer
 - Command
 ```shell
 composer install
@@ -72,7 +73,7 @@ ocramius/package-versions: ...done generating version class
 Use the `composer fund` command to find out more!
 ```
 
-##Usage:
+## Usage:
 ### 1. Dump sql
 
 - Command
